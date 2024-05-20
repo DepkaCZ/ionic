@@ -35,7 +35,7 @@ importers:
         version: 3.11.2(rollup@4.17.2)
       ionicons:
         specifier: ^7.3.1
-        version: 7.3.1
+        version: 7.4.0
       pathe:
         specifier: ^1.1.2
         version: 1.1.2
@@ -1546,6 +1546,11 @@ packages:
 
   '@stencil/core@4.17.2':
     resolution: {integrity: sha512-MX7yaLmpTU9iZvCire9nhecTcE0qBlV0vPWrLMeIXewYN7/hb8B3NjnhQyBKC93FDPI8NBRmt6KIugLw9zcRZg==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
+    hasBin: true
+
+  '@stencil/core@4.18.1':
+    resolution: {integrity: sha512-WoRctLuXqoiLquS4EEvMoyLsbQ5+xuk8wp0+n4mYjoAoXy8NppXmMqKrMlFyYXL/zUI5ODS7U7IcLCpZ3IcKZQ==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -3554,8 +3559,8 @@ packages:
     resolution: {integrity: sha512-JG3eIAj5V9CwcGvuOmoo6LB9kbAYT8HXffUl6memuszlwDC/qvFAJw49XJ5NROSFNPxp3iQg1GqkFhaY/CR0IA==}
     engines: {node: '>=8.0.0'}
 
-  ionicons@7.3.1:
-    resolution: {integrity: sha512-1boG4EQTBBpQ4/0PU60Yi78Iw/k8iNtKu9c0NmsbzHGnWAcwpiovG9Wi/rk5UlF+DC+CR4XDCxKo91YqvAxkww==}
+  ionicons@7.4.0:
+    resolution: {integrity: sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==}
 
   ioredis@5.3.2:
     resolution: {integrity: sha512-1DKMMzlIHM02eBBVOFQ1+AolGjs6+xEcM4PDL7NqOS6szq7H9jSaEkIUH6/a5Hl241LzW6JLSiAbNvTQjUupUA==}
@@ -7066,7 +7071,7 @@ snapshots:
   '@ionic/core@8.1.2':
     dependencies:
       '@stencil/core': 4.17.2
-      ionicons: 7.3.1
+      ionicons: 7.4.0
       tslib: 2.6.2
 
   '@ionic/utils-array@2.1.5':
@@ -7219,7 +7224,7 @@ snapshots:
   '@ionic/vue@8.1.2':
     dependencies:
       '@ionic/core': 8.1.2
-      ionicons: 7.3.1
+      ionicons: 7.4.0
 
   '@ioredis/commands@1.2.0': {}
 
@@ -8264,6 +8269,8 @@ snapshots:
   '@socket.io/component-emitter@3.1.0': {}
 
   '@stencil/core@4.17.2': {}
+
+  '@stencil/core@4.18.1': {}
 
   '@stylistic/eslint-plugin-js@1.8.1(eslint@9.0.0)':
     dependencies:
@@ -10808,9 +10815,9 @@ snapshots:
       strip-ansi: 6.0.1
       through: 2.3.8
 
-  ionicons@7.3.1:
+  ionicons@7.4.0:
     dependencies:
-      '@stencil/core': 4.17.2
+      '@stencil/core': 4.18.1
 
   ioredis@5.3.2:
     dependencies:
